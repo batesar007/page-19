@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- SLICK MIN JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- SLICK THEME MIN JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="shortcut icon" href="./assets/img/png/fabicon.png" type="image/x-icon">
+    <title>LaslesVPN</title>
+</head>
+
+<body>
+    <div class="container pt-5 pb-5">
+        <nav class="d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center ">
+                <img class="w-100" src="./assets/img/png/fabicon.png" alt="icon">
+                <p class="mb-0 ps-3 fw_500 fs_black fs_md font_famly">Lasles<span
+                        class="fw_700 font_famly fs_md">VPN</span></p>
+            </div>
+
+            <span class="d-flex h_30 w_80 flex-column justify-content-between" onclick="navshow()">
+                <span class="menuitem"></span>
+                <span class="menuitem"></span>
+                <span class="menuitem"></span>
+            </span>
+
+            <ul class="d-flex flex-column flex-xl-row  navrisponsive" id="show">
+                <li><a class="ps-3  fs_light_black abouthover fw_400 font_famly" href="#">About</a></li>
+                <li><a class="ps-3 fs_light_black abouthover fw_400 font_famly" href="#">Features</a></li>
+                <li><a class="ps-3 fs_light_black abouthover fw_400 font_famly" href="#">Pricing</a></li>
+                <li><a class="ps-3 fs_light_black abouthover fw_400 font_famly" href="#">Testimonials</a></li>
+                <li><a class="ps-3 fs_light_black abouthover fw_400 font_famly" href="#">Help</a></li>
+                <li><a class="ps-3 fs_black fw_500 abouthover d-xl-none font_famly" href="#">Sign In</a></li>
+                <li><a class="ms-3 clr_red style_sign abouthover  d-xl-none font_famly" href="#">Sign Up</a></li>
+
+            </ul>
+            <ul class="d-flex flex-column flex-xl-row navrisponsive">
+                <li><a class="ps-3 fs_black fw_500 abouthover font_famly" href="#">Sign In</a></li>
+                <li><a class="ms-3 fs_clr_red style_sign signuphover font_famly" href="#">Sign Up</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- div 1 -->
+    <div class="container pt-5 mt-5 pb-5 mb-5">
+        <div class="row flex-column-reverse flex-lg-row pt-5 pb-5">
+            <div class="col-12 col-lg-6">
+                <h1 class="fw_500 fs_2xl fs_lg_xsm font_famly">Want anything to be easy with LaslesVPN.</h1>
+                <p class="fw_400 fs_sm font_famly fs_light_black">Provide a network for all your needs with ease and fun
+                    using
+                    LaslesVPN discover
+                    interesting features
+                    from
+                    us.
+                </p>
+                <div class="pt-5 text-center text-lg-start">
+                    <a class="style_get fs_clr_white font_famly" href="#">Get Started</a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <img class="w-100" src="./assets/img/png/firstimg.png" alt="meanimg">
+            </div>
+        </div>
+
+
+        <div class="d-flex align-items-center justify-content-evenly box_border mt-4">
+            <div class="d-flex align-items-center flex-column flex-md-row">
+                <span><img src="/assets/img/png/profile.png" alt="image"></span>
+                <div class="ps-md-4">
+                    <p class="fw_700 font_famly fs_xl fs_lg_xsm mb-0">90+</p>
+                    <p class="mb-0 fw_400 fs_lg fs_md_xsm font_famly">Users</p>
+                </div>
+                <div>
+                </div>
+
+            </div>
+            <hr class="hr d-none d-lg-block  ">
+            <div class="d-flex align-items-center flex-column flex-md-row">
+                <span><img src="/assets/img/png/loction.png" alt="image"></span>
+                <div class="ps-md-4">
+                    <p class="fw_700 font_famly fs_xl fs_lg_xsm mb-0">90+</p>
+                    <p class="mb-0 fw_400 fs_lg fs_md_xsm font_famly">Users</p>
+                </div>
+                <div>
+                </div>
+
+            </div>
+            <hr class="hr d-none d-lg-block">
+            <div class="d-flex align-items-center  flex-column flex-md-row">
+                <span><img src="/assets/img/png/twoline.png" alt="image"></span>
+                <div class="ps-md-4">
+                    <p class="fw_700 font_famly fs_xl fs_lg_xsm mb-0">90+</p>
+                    <p class="mb-0 fw_400 fs_lg fs_md_xsm font_famly">Users</p>
+                </div>
+                <div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="row align-items-center  pt-5">
+            <div class="col-12 col-lg-6">
+                <img class="w_80p" src="./assets/img/png/laptop.png" alt="img">
+            </div>
+            <div class="col-12 col-lg-6 flex-column d-flex align-items-end">
+                <div class="">
+                    <p class="fw_500 fs_xl fs_lg_xsm font_famly min_w_383">We Provide Many Features You Can Use</p>
+                    <p class="font_famly fw_400 fs_sm min_w_427 fs_light_black pt-2">You can explore the features that
+                        we provide with
+                        fun and have their
+                        own functions each feature.</p>
+                    <div class="d-flex pt-3">
+                        <span><img src="./assets/img/png/greenclick.png" alt="greenclick"></span>
+                        <p class="fw_400 font_famly fs_ss ps-2 fs_light_black">Powerfull online protection.</p>
+                    </div>
+                    <div class="d-flex pt-1">
+                        <span><img src="./assets/img/png/greenclick.png" alt="greenclick"></span>
+                        <p class="fw_400 font_famly fs_ss ps-2 fs_light_black">Internet without borders.</p>
+                    </div>
+                    <div class="d-flex pt-1">
+                        <span><img src="./assets/img/png/greenclick.png" alt="greenclick"></span>
+                        <p class="fw_400 font_famly fs_ss ps-2 fs_light_black">Supercharged VPN</p>
+                    </div>
+                    <div class="d-flex pt-1">
+                        <span><img src="./assets/img/png/greenclick.png" alt="greenclick"></span>
+                        <p class="fw_400 font_famly fs_ss ps-2 fs_light_black">No specific time limits.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- div 2 -->
+    <div class="fs_bg_lightwhite pb-5">
+        <div class="container">
+            <div class="text-center pt-5 pb-4 d-flex flex-column align-items-center">
+                <p class="fw_500 fs_xl fs_lg_xsm font_famly">Choose Your Plan</p>
+                <p class="fw_400 fs_sm font_famly min_w_555 fs_light_black">Let's choose the package that is best for
+                    you and explore
+                    it happily
+                    and cheerfully.</p>
+            </div>
+            <div class="row ">
+                <div class="col-12 col-md-6 col-lg-4 pt-3">
+                    <div class="box_boderline h_760  d-flex flex-column  align-items-center">
+                        <div class="d-flex flex-column pt-5 ">
+                            <img src="./assets/img/png/magicbox.png" alt="magicbox">
+                            <p class="fw_500 text-center font_famly fs_md pt-4">Free Plan</p>
+                            <div class="d-flex pt-5">
+                                <span><img src="./assets/img/png/righttik.png" alt="righttik"></span>
+                                <p class="fw_400 fs_ss font_famly ps-3 fs_light_black">Unlimited Bandwitch</p>
+                            </div>
+                            <div class="d-flex">
+                                <span><img src="./assets/img/png/righttik.png" alt="righttik"></span>
+                                <p class="fw_400 fs_ss font_famly ps-3 fs_light_black">Encrypted Connection</p>
+                            </div>
+                            <div class="d-flex">
+                                <span><img src="./assets/img/png/righttik.png" alt="righttik"></span>
+                                <p class="fw_400 fs_ss font_famly ps-3 fs_light_black">No Traffic Logs</p>
+                            </div>
+                            <div class="d-flex pb-5">
+                                <span><img src="./assets/img/png/righttik.png" alt="righttik"></span>
+                                <p class="fw_400 fs_ss font_famly ps-3 pb-5 fs_light_black">Works on All Devices</p>
+                            </div>
+                            <div class="text-center ">
+                                <p class="fw_500 fs_lg font_famly ">Free</p>
+                                <a class="fw_700 style_select d-inline-block fs_clr_red hover_select"
+                                    href="#">Select</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 pt-3">
+                    <div class="box_boderline d-flex flex-column  align-items-center">
+                        <div class="d-flex h_760 flex-column pt-5">
+                            <img src="./assets/img/png/magicbox.png" alt="magicbox">
+                            <p class="fw_500 text-center font_famly fs_md pt-4">Standard Plan</p>
+                            <div class="d-flex pt-5">
+                                <span><img src="./assets/img/png/righttik.png" alt="righttik"></span>
+                                <p class="fw_400 fs_ss font_famly ps-3 fs_light_black">Unlimited Bandwitch</p>
+                            </div>
+                            <div class="d-flex">
+                                <span><img src="./assets/img/png/righttik.png" alt="righttik"></span>
+                                <p class="fw_400 fs_ss font_famly ps-3 fs_light_black">Encrypted Connection</p>
+                            </div>
+                            <div class="d-flex">
+                                <span><img src="./assets/img/png/righttik.png" alt="righttik"></span>
+                                <p class="fw_400 fs_ss font_famly ps-3 fs_light_black">No Traffic Logs</p>
+                            </div>
+                            <div class="d-flex">
+                                <span><img src="./assets/img/png/righttik.png" alt="righttik"></span>
+                                <p class="fw_400 fs_ss font_famly ps-3 fs_light_black">Works on All Devices</p>
+                            </div>
+                            <div class="d-flex pb-5">
+                                <span><img src="./assets/img/png/righttik.png" alt="righttik"></span>
+                                <p class="fw_400 fs_ss font_famly ps-3 fs_light_black">Connect Anyware</p>
+                            </div>
+                            <div class="text-center pt-2">
+                                <p class="fw_500 fs_lg font_famly ">$9<span class="fw_300 fs_light_black">/ mo</span>
+                                </p>
+                                <a class="fw_700 style_select d-inline-block fs_clr_red hover_select"
+                                    href="#">Select</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 pt-3 ">
+                    <div class="box_boderline h_760 d-flex flex-column  align-items-center">
+                        <div class="d-flex flex-column pt-5">
+                            <img src="./assets/img/png/magicbox.png" alt="magicbox">
+                            <p class="fw_500 text-center font_famly fs_md pt-4">Standard Plan</p>
+                            <div class="d-flex pt-5">
+                                <span><img src="./assets/img/png/righttik.png" alt="righttik"></span>
+                                <p class="fw_400 fs_ss font_famly ps-3 fs_light_black">Unlimited Bandwitch</p>
+                            </div>
+                            <div class="d-flex">
+                                <span><img src="./assets/img/png/righttik.png" alt="righttik"></span>
+                                <p class="fw_400 fs_ss font_famly ps-3 fs_light_black">Encrypted Connection</p>
+                            </div>
+                            <div class="d-flex">
+                                <span><img src="./assets/img/png/righttik.png" alt="righttik"></span>
+                                <p class="fw_400 fs_ss font_famly ps-3 fs_light_black">No Traffic Logs</p>
+                            </div>
+                            <div class="d-flex">
+                                <span><img src="./assets/img/png/righttik.png" alt="righttik"></span>
+                                <p class="fw_400 fs_ss font_famly ps-3 fs_light_black">Works on All Devices</p>
+                            </div>
+                            <div class="d-flex">
+                                <span><img src="./assets/img/png/righttik.png" alt="righttik"></span>
+                                <p class="fw_400 fs_ss font_famly ps-3 fs_light_black">Connect Anyware</p>
+                            </div>
+                            <div class="d-flex">
+                                <span><img src="./assets/img/png/righttik.png" alt="righttik"></span>
+                                <p class="fw_400 fs_ss font_famly ps-3 fs_light_black">Get New Features</p>
+                            </div>
+                            <div class="text-center pt-3">
+                                <p class="fw_500 fs_lg font_famly ">$12<span class="fw_300 fs_light_black">/ mo</span>
+                                </p>
+                                <a class="fw_700 style_select d-inline-block fs_clr_red hover_select"
+                                    href="#">Select</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- div 3 -->
+    <div class="container">
+        <div class="text-center pt-5 pb-4 d-flex flex-column align-items-center">
+            <p class="fw_500 fs_xl  fs_lg_xsm font_famly min_w_383">Huge Global Network of Fast VPN</p>
+            <p class="fw_400 fs_sm font_famly min_w_555 fs_light_black">See <span class="fw_500">LaslesVPN</span>
+                everywhere to make it easier for you when you
+                move locations.</p>
+        </div>
+        <div class="pt-5 pb-5">
+            <img class="w-100" src="./assets/img/png/map.png" alt="map">
+        </div>
+        <div class="row align-items-center">
+            <div class="col_13_lg col-md-3 col-sm-6 col-12 pt-4">
+                <img class="w-100" src="./assets/img/png/netflix.png" alt="netflix">
+            </div>
+            <div class="col_13_lg col-md-3 col-sm-6 col-12 pt-4">
+                <img class="w-100" src="./assets/img/png/reddit.png" alt="reddit">
+            </div>
+            <div class="col_13_lg col-md-3 col-sm-6 col-12 pt-4">
+                <img class="w-100" src="./assets/img/png/amazon.png" alt="amozon">
+            </div>
+            <div class="col_13_lg col-md-3 col-sm-6 col-12 pt-4">
+                <img class="w-100" src="./assets/img/png/discord.png" alt="discord">
+            </div>
+            <div class="col_13_lg col-md-3 col-sm-6 col-12 pt-4">
+                <img class="w-100" src="./assets/img/png/spotify.png" alt="spotify">
+            </div>
+        </div>
+    </div>
+    <!-- div 4 -->
+    <div class="container">
+        <div class="text-center pt-5 pb-4 d-flex flex-column align-items-center">
+            <p class="fw_500 fs_xl fs_lg_xsm font_famly min_w_383">Trusted by Thousands of Happy Customer</p>
+            <p class="fw_400 fs_sm font_famly min_w_555 fs_light_black">These are the stories of our customers who have
+                joined us with great pleasure when using this crazy feature.</p>
+        </div>
+        <div class="row pb-5 slick_slider">
+            <div class="col-4">
+                <div class="slick_boder h_230 p-3">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex">
+                            <span><img src="./assets/img/png/slickslider1.png" alt="slick1"></span>
+                            <div class="ps-3">
+                                <p class="mb-0 font_famly fw_500 fs_sm">Viezh Robert</p>
+                                <p class="fw_400 fs_ss font_famly fs_light_black">Warsaw, Poland</p>
+                            </div>
+                        </div>
+                        <div class="d-flex ">
+                            <p class="fw_400 fs_sm font_famly">4.5</p>
+                            <span><img class=" ps-2" src="./assets/img/png/star.png" alt="star"></span>
+                        </div>
+                    </div>
+                    <p class="fw_400 fs_sm font_famly fs_light_black pt-3">“Wow... I am very happy to use this VPN, it
+                        turned
+                        out to be more
+                        than my expectations and so far
+                        there have been no
+                        problems. LaslesVPN always the best”.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="slick_boder h_230 p-3">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex">
+                            <span><img src="./assets/img/png/slickslider2.png" alt="slick1"></span>
+                            <div class="ps-3">
+                                <p class="mb-0 font_famly fw_500 fs_sm">Yessica Christy</p>
+                                <p class="fw_400 fs_ss font_famly fs_light_black">Shanxi, China</p>
+                            </div>
+                        </div>
+                        <div class="d-flex ">
+                            <p class="fw_400 fs_sm font_famly">4.5</p>
+                            <span><img class=" ps-2" src="./assets/img/png/star.png" alt="star"></span>
+                        </div>
+                    </div>
+                    <p class="fw_400 fs_sm font_famly fs_light_black pt-3 ">“I like it because I like to travel far and
+                        still
+                        can connect with high speed.”.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="slick_boder h_230 p-3">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex">
+                            <span><img src="./assets/img/png/slickslider3.png" alt="slick1"></span>
+                            <div class="ps-3">
+                                <p class="mb-0 font_famly fw_500 fs_sm">Kim Young Jou</p>
+                                <p class="fw_400 fs_ss font_famly fs_light_black">Seoul, South Korea</p>
+                            </div>
+                        </div>
+                        <div class="d-flex ">
+                            <p class="fw_400 fs_sm font_famly">4.5</p>
+                            <span><img class=" ps-2" src="./assets/img/png/star.png" alt="star"></span>
+                        </div>
+                    </div>
+                    <p class="fw_400 fs_sm font_famly fs_light_black pt-3">“This is very unusual for my business that
+                        currently requires a virtual private network that has high security.”.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="slick_boder h_230 p-3">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex">
+                            <span><img src="./assets/img/png/slickslider1.png" alt="slick1"></span>
+                            <div class="ps-3">
+                                <p class="mb-0 font_famly fw_500 fs_sm">Viezh Robert</p>
+                                <p class="fw_400 fs_ss font_famly fs_light_black">Warsaw, Poland</p>
+                            </div>
+                        </div>
+                        <div class="d-flex ">
+                            <p class="fw_400 fs_sm font_famly">4.5</p>
+                            <span><img class=" ps-2" src="./assets/img/png/star.png" alt="star"></span>
+                        </div>
+                    </div>
+                    <p class="fw_400 fs_sm font_famly fs_light_black pt-3">“Wow... I am very happy to use this VPN, it
+                        turned
+                        out to be
+                        more
+                        than my expectations and so far
+                        there have been no
+                        problems. LaslesVPN always the best”.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="slick_boder h_230 p-3">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex">
+                            <span><img src="./assets/img/png/slickslider2.png" alt="slick1"></span>
+                            <div class="ps-3">
+                                <p class="mb-0 font_famly fw_500 fs_sm">Yessica Christy</p>
+                                <p class="fw_400 fs_ss font_famly fs_light_black">Shanxi, China</p>
+                            </div>
+                        </div>
+                        <div class="d-flex ">
+                            <p class="fw_400 fs_sm font_famly">4.5</p>
+                            <span><img class=" ps-2" src="./assets/img/png/star.png" alt="star"></span>
+                        </div>
+                    </div>
+                    <p class="fw_400 fs_sm font_famly fs_light_black pt-3">“I like it because I like to travel far and
+                        still
+                        can connect with high speed.”.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="slick_boder h_230 p-3">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex">
+                            <span><img src="./assets/img/png/slickslider3.png" alt="slick1"></span>
+                            <div class="ps-3">
+                                <p class="mb-0 font_famly fw_500 fs_sm">Kim Young Jou</p>
+                                <p class="fw_400 fs_ss font_famly fs_light_black">Seoul, South Korea</p>
+                            </div>
+                        </div>
+                        <div class="d-flex ">
+                            <p class="fw_400 fs_sm font_famly">4.5</p>
+                            <span><img class=" ps-2" src="./assets/img/png/star.png" alt="star"></span>
+                        </div>
+                    </div>
+                    <p class="fw_400 fs_sm font_famly fs_light_black pt-3">“This is very unusual for my business that
+                        currently requires a virtual private network that has high security.”.</p>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="d-flex justify-content-end mt-5">
+            <button class="back slider_btn d-none d-xl-block" type="button">
+                <span class="fs_2xl fw_700 slider_btn_arrow"> &#8592;</span>
+            </button>
+            <button class="next slider_btn ms-3 d-none d-xl-block " type="button">
+                <span class="fs_2xl fw_700 slider_btn_arrow "> &#8594;</span>
+            </button>
+        </div>
+    </div>
+    <!-- ------------------------------------------------------------------- -->
+    <div class="fs_bg_white">
+        <div class="container tranform_">
+            <div
+                class="footer_box d-flex flex-column flex-lg-row text-center text-lg-start justify-content-between align-items-center">
+                <div>
+                    <h2 class="font_famly fw_500 fs_2xl fs_lg_xsm fs_bg_white min_w_371">Subscribe Now for Get Special
+                        Features!</h2>
+                    <p class="font_famly fw_400 fs_sm  pt-2">Let's subscribe with us and find the fun.</p>
+                </div>
+                <a href="#"
+                    class="fw_700 fs_sm font_famly fs_bg_red subscribe_button d-inline-block text-white mt-xl-3">
+                    Subscribe Now</a>
+            </div>
+        </div>
+    </div>
+    <!------------------------------ footer ------------------------>
+
+    <footer class="fs_bg_lightwhite  pt-5 mt-5 mt-sm-0">
+        <div class="container pb-3 pb-lg-5 mt-5
+          pt_100_lg_min ">
+            <div class="row pt_80  pt-md-0">
+                <div class="col-12 col-md-5 d-flex align-items-center align-items-md-start flex-column ">
+                    <div class="d-flex align-items-center pt-5 pt-md-0">
+                        <img class="" src="/assets/img/png/fabicon.png" alt="logo">
+                        <span class="font_famly fw_500 lightblue fs_lg ps-3 ">Lasles<span
+                                class="fw_700 fs_lg">VPN</span></span>
+                    </div>
+                    <p
+                        class="font_famly fw_500 fs_sm pt-3 fs_light_black min_w_340 unique_widthpt-3 text-center text-md-start pt-3">
+                        <span class="fw_600">LaslesVPN</span> is a private virtual network that has unique features and
+                        has high security.
+                    </p>
+                    <div class="pb-4 pt-4">
+                        <a href="#"><img class="radius_100" src="/assets/img/png/Facebook.png" alt="facebook"></a>
+                        <a class="ps-4" href="#"><img class="radius_100" src="/assets/img/png/Twitter.png"
+                                alt="twitter"></a>
+                        <a class="ps-4" href="#"><img class="radius_100" src="/assets/img/png/Instagram.png"
+                                alt="instagram"></a>
+                    </div>
+                    <p class="font_famly fw_500 fs_sm footer_p_color">©2020LaslesVPN</p>
+                </div>
+                <div class="col-12 col-md-7">
+                    <div class="row">
+                        <div class="col-6  col-lg-4 d-flex justify-content-center justify-content-md-start">
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="font_famly fw_500 fs_md ">Product</a></li>
+                                <li><a href="#"
+                                        class="font_famly fw_400 fs_sm fs_light_black d-inline-block pt-3">Download</a>
+                                </li>
+                                <li><a href="#"
+                                        class="ff_Rubik fw_400 fs_sm fs_light_black d-inline-block pt-2">Pricing</a>
+                                </li>
+                                <li><a href="#"
+                                        class="ff_Rubik fw_400 fs_sm fs_light_black d-inline-block pt-2">Locations</a>
+                                </li>
+                                <li><a href="#"
+                                        class="font_famly fw_400 fs_sm fs_light_black d-inline-block pt-2">Server</a>
+                                </li>
+                                <li><a href="#"
+                                        class="font_famly fw_400 fs_sm fs_light_black d-inline-block pt-2">Countries</a>
+                                </li>
+                                <li><a href="#"
+                                        class="font_famly fw_400 fs_sm fs_light_black d-inline-block pt-2">Blog</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-lg-4 d-flex justify-content-center justify-content-md-start">
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="font_famly fw_500 fs_md lightblue">Engage</a></li>
+                                <li><a href="#"
+                                        class="font_famly fw_400 fs_sm fs_light_black d-inline-block pt-3">LaslesVPN
+                                        ?</a>
+                                </li>
+                                <li><a href="#"
+                                        class="font_famly fw_400 fs_sm fs_light_black d-inline-block pt-2">FAQ</a></li>
+                                <li><a href="#"
+                                        class="font_famly fw_400 fs_sm fs_light_black d-inline-block pt-2">Tutorials</a>
+                                </li>
+                                <li><a href="#" class="font_famly fw_400 fs_sm fs_light_black d-inline-block pt-2">About
+                                        Us</a></li>
+                                <li><a href="#"
+                                        class="font_famly fw_400 fs_sm fs_light_black d-inline-block pt-2">Privacy
+                                        Policy</a></li>
+                                <li><a href="#" class="font_famly fw_400 fs_sm fs_light_black d-inline-block pt-2">Terms
+                                        of
+                                        Service</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-4 d-flex justify-content-center justify-content-md-start">
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="font_famly fw_500 fs_md ">Earn Money</a></li>
+                                <li><a href="#"
+                                        class="font_famly fw_400 fs_sm fs_light_black d-inline-block pt-3">Affiliate</a>
+                                </li>
+                                <li><a href="#"
+                                        class="font_famly fw_400 fs_sm fs_light_black d-inline-block pt-2">Become
+                                        Partner</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script>
+        function navshow() {
+            document.getElementById("show").classList.toggle("left0")
+        }
+    </script>
+    <!-- 90-0 -->
+    <!--L QUERRY MIN JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--SLICK MIN JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.slick_slider').slick({
+            dots: true,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            arrow:  true, 
+            nextArrow: ".next",
+            prevArrow: ".back",
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+    </script>
+</body>
+
+</html>
